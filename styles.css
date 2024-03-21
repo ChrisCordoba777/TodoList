@@ -1,0 +1,117 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background: url("https://images.rawpixel.com/image_social_landscape/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg")
+    no-repeat;
+  background-size: cover;
+}
+
+/* Styles for screens wider than 600px */
+@media screen and (min-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f9ecec;
+  width: 70%;
+  height: 80vh;
+  margin: 30px auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 9px 9px 12px rgba(0, 0, 0, 0.5);
+}
+
+.container h1 {
+  text-decoration: underline;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px black;
+  font-size: 3em;
+  display: flex;
+  height: 1em;
+  padding: 40px 0;
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  padding: 10px; /* Add some padding for spacing */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.inputs {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  position: absolute;
+  margin: 140px 0 0 0;
+  flex-direction: row;
+  width: 63%;
+  height: 3vh;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.inputs input {
+  width: 20em;
+  margin-left: 10px;
+  margin-top: -1em;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.inputs input:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.inputs #enterbutton {
+  width: 20em;
+  margin-top: -1em;
+  background-color: #eebbbb;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+  transition: transform 0.2s ease;
+}
+
+.inputs #enterbuttonbutton:hover {
+  transform: translateY(0);
+}
+
+.container-two {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-two ul {
+  background-color: #fce8e8;
+  border-radius: 10px;
+  font-size: 2em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style: circle;
+  width: 50vw;
+  padding: 1em;
+  max-height: max-content;
+}
+
+delete-button {
+  width: 200px;
+  background-color: aqua;
+}
